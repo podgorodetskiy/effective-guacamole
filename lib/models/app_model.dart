@@ -14,7 +14,7 @@ class AppModel extends ChangeNotifier {
     Configuration()
       ..auth = (BrowserAuthOptions()
         ..clientId = clientId
-        ..redirectUri = 'http://localhost:57466')
+        ..redirectUri = 'http://213.183.51.216:8090')
       ..system = (BrowserSystemOptions()
         ..loggerOptions = (LoggerOptions()
           ..loggerCallback = _loggerCallback
